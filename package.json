@@ -7,9 +7,13 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "live-server",
+    "compile": "sass scss/styles.scss css/styles.css -w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.67.0"
+  }
 }
